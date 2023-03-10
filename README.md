@@ -1,1 +1,6 @@
-# -B-cell-Epitopes-Prediction-
+# B cell Epitopes Prediction 
+The project aims to predict the epitope regions of antigen proteins that induce antibody production by B-cells. The dataset used contains information about 14362 peptides and 757 proteins, including peptide and protein sequences, start and end positions of peptides, and various peptide and protein features such as β turn, relative surface accessibility, antigenicity, hydrophobicity, stability, isoelectric point, and aromaticity. The target variable is binary, indicating whether an amino acid peptide exhibited antibody-inducing activity or not.
+
+The project first performs exploratory data analysis to understand the distribution of features and their relation to the target variable. The data is then divided into training and test sets, and a logistic regression model is built on the training set. The model is evaluated on the test set using performance metrics such as accuracy, precision, recall, and F1 score.
+
+The project also includes the creation of error distributions, confusion matrices, and ROC curves to evaluate the stability and robustness of the model. Overall, the project demonstrates the effectiveness of logistic regression in predicting the antibody-inducing activity of B-cell epitopes and its potential use in the design and development of vaccines.
